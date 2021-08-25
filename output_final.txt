@@ -1,0 +1,2117 @@
+Active code page: 1252
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      1
+
+
+
+
+
+
+
+
+
+                        please enter filename (with extension)    :       map.txt
+
+
+
+
+        loaded successfully
+
+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      2
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                |   |   |     E     |
+                                +   +   +---+---+   +
+                                |   |   |           |
+                                +   +   +   +---+   +
+                                | B         |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      3
+
+
+
+
+
+
+
+
+                please enter start location     :    B
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      4
+
+
+
+
+
+
+
+
+                please enter destination location    :   E
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      2
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                |   |   |    {E}    |
+                                +   +   +---+---+   +
+                                |   |   |           |
+                                +   +   +   +---+   +
+                                |(B)        |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      6
+
+
+
+
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                |   |   |    {E}    |
+                                +   +   +---+---+   +
+                                |   |   |           |
+                                +   +   +   +---+   +
+                                |(B)  .     |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                |   |   |    {E}    |
+                                +   +   +---+---+   +
+                                | . |   |           |
+                                +   +   +   +---+   +
+                                |(B)  .     |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                |   |   |    {E}    |
+                                +   +   +---+---+   +
+                                | . |   |           |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                |   |   |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . |           |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                | . |   |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . |           |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                | . |   |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . | .         |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                | . | . |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . | .         |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                | . | . |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . | .   .     |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D           F |
+                                +   +   +   +---+---+
+                                | . | . |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .       F |
+                                +   +   +   +---+---+
+                                | . | . |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .       F |
+                                +   +   +   +---+---+
+                                | . | . |    {E}    |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . |     . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .       F |
+                                +   +   +   +---+---+
+                                | . | . |    {E}  . |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . |     . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .       F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  . |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . |     . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  . |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . |     . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  . |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+        Shortest path    :      B(4,1)  (4,2)   (4,3)   (3,3)   (3,4)   (3,5)   (2,5)   E(2,4)
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | .   .   . |
+                                +   +   +   +---+   +
+                                |(B)  .   . | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | .   .   o |
+                                +   +   +   +---+   +
+                                |(B)  .   . | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | .   o   o |
+                                +   +   +   +---+   +
+                                |(B)  .   . | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | o   o   o |
+                                +   +   +   +---+   +
+                                |(B)  .   . | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | o   o   o |
+                                +   +   +   +---+   +
+                                |(B)  .   o | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | o   o   o |
+                                +   +   +   +---+   +
+                                |(B)  o   o | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      8
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   .   .   F |
+                                +   +   +   +---+---+
+                                | . | . | .  {E}  o |
+                                +   +   +---+---+   +
+                                | . | . | o   o   o |
+                                +   +   +   +---+   +
+                                |(B)  o   o | .   . |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      1
+
+
+
+
+
+
+
+
+
+                        please enter filename (with extension)    :       map3.txt
+
+
+
+
+        loaded successfully
+
+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      2
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   1   1   F |
+                                +   +   +   +---+---+
+                                | 1 | 1 | 1   E   1 |
+                                +   +   +---+---+   +
+                                | 2 | 1 | 3   3   2 |
+                                +   +   +   +---+   +
+                                | B   2   3 | 2   1 |
+                                +---+---+---+   +---+
+                                | C   1   2   3   G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      3
+
+
+
+
+
+
+
+
+                please enter start location     :    B
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      4
+
+
+
+
+
+
+
+
+                please enter destination location    :   E
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      2
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   1   1   F |
+                                +   +   +   +---+---+
+                                | 1 | 1 | 1  {E}  1 |
+                                +   +   +---+---+   +
+                                | 2 | 1 | 3   3   2 |
+                                +   +   +   +---+   +
+                                |(B)  2   3 | 2   1 |
+                                +---+---+---+   +---+
+                                | C   1   2   3   G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      7
+
+
+
+
+
+
+
+
+
+
+
+        Shortest path    :      B(4,1)  (4,2)   (3,2)   (2,2)   D(1,2)  (1,3)   (2,3)   E(2,4)
+
+
+                total cost/toll gate tax sum  : (assuming no toll gate is present if cost not specified )  =    6
+
+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      8
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+
+                                | A | D   1       F |
+                                +   +   +   +---+---+
+                                |   | 1 | 1  {E}    |
+                                +   +   +---+---+   +
+                                |   | 1 |           |
+                                +   +   +   +---+   +
+                                |(B)  2     |       |
+                                +---+---+---+   +---+
+                                | C               G |
+                                +---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      1
+
+
+
+
+
+
+
+
+
+                        please enter filename (with extension)    :       map2.txt
+
+
+
+
+        loaded successfully
+
+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      2
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   |     C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |                               |
+                                +---+---+   +---+   +---+   +---+
+                                | B         | D     |         G |
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      3
+
+
+
+
+
+
+
+
+                please enter start location     :    B
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      4
+
+
+
+
+
+
+
+
+                please enter destination location    :   G
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      2
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   |     C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |                               |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)        | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      5
+
+
+
+
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   |     C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |                               |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .     | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   |     C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |                               |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   |     C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |         .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   |     C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C                     |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .                 |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .             |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .         |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .     |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                           F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                       .   F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A                   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A               .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A           .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A       .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                |   | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                |     .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .                     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .                 |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .             |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .         |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .     |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |        {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     |     .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E             |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |                 E   .         |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |             .   E   .         |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |         .   .   E   .         |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                |     .   .   .   E   .         |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .         |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .     |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   .  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+        Shortest path    :      B(4,1)  (4,2)   (4,3)   (3,3)   (3,4)   (3,5)   (3,6)   (3,7)   (4,7)   G(4,8)
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   .   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   .   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   .   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   .   o   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   .   o   o   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   o   o   o   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   . | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   o   o   o   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  .   o | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   o   o   o   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  o   o | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      8
+
+
+
+
+
+
+
+
+                                +---+---+---+---+---+---+---+---+
+                                | A   .   .   .   .   .   .   F |
+                                +   +---+---+---+---+---+---+   +
+                                | . | .   C   .   .   .   .   . |
+                                +   +   +---+---+---+---+---+---+
+                                | .   .   o   o   o   o   o   . |
+                                +---+---+   +---+   +---+   +---+
+                                |(B)  o   o | D     | .   o  {G}|
+                                +   +---+---+---+---+   +---+---+
+                                | .   .   .   .   E   .   .   . |
+                                +---+---+---+---+---+---+---+---+
+
+
+
+
+
+
+
+                1)Load Map
+
+
+                2)Display Map
+
+
+                3)Set Start
+
+
+                4)Set Goal
+
+
+                5)Find a Path with Depth First Search   (note : DFS doesnt give shortest paths )
+
+
+                6)Find Shortest Path with Breadth First Search
+
+
+                7)Find Path with minimum total toll gate cost with Dijikstra's algorithm
+
+
+                8)Display Path
+
+
+                0)Quit
+
+
+
+
+                        Please select an option   :      0
+
+
+
+
+
+--------------------------------
+Process exited after 103.5 seconds with return value 0
+Press any key to continue . . .
